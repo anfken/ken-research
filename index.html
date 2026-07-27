@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ken — Crypto Research</title>
+  <meta name="description" content="Crypto asset research: Base, Robinhood Chain, LP arbitrage, tokenization, and on-chain monitoring." />
+  <style>
+    :root{
+      --bg:#0b0f18;
+      --panel:#111827;
+      --muted:#9aa3b2;
+      --text:#e6e9ef;
+      --accent:#3b82f6;
+      --good:#22c55e;
+      --warn:#eab308;
+      --danger:#ef4444;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    .wrap{max-width:980px;margin:0 auto;padding:28px 20px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+    .logo{font-weight:700;letter-spacing:.3px}
+    .logo span{color:var(--accent)}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:14px}
+    nav a:hover{color:#fff}
+    .hero{padding:64px 0 40px}
+    .hero h1{font-size:44px;line-height:1.1;font-weight:800;margin:0 0 12px}
+    .hero p{color:var(--muted);font-size:18px;max-width:680px;line-height:1.55;margin:0}
+    .section{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:28px}
+    .card{background:var(--panel);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:22px}
+    .card h3{font-size:14px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted);margin:0 0 10px}
+    .card .value{font-size:22px;font-weight:700;margin:0}
+    .tag{display:inline-block;padding:4px 10px;border-radius:999px;font-size:12px;background:rgba(255,255,255,.06);color:var(--muted);margin:8px 6px 0 0}
+    .list{margin:0;padding-left:18px;color:var(--muted)}
+    .list li{margin:6px 0}
+    .notice{background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.25);color:#fca5a5;padding:14px 16px;border-radius:12px;margin-top:22px;font-size:14px}
+    footer{border-top:1px solid rgba(255,255,255,.06);padding:22px 0;color:var(--muted);font-size:13px;margin-top:40px}
+    .link{color:#93c5fd;text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">Ken<span>.</span>Research</div>
+      <nav>
+        <a href="#focus">Fokus</a>
+        <a href="#watchlist">Watchlist</a>
+        <a href="#tools">Tools</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Crypto asset research for builders &amp; traders</h1>
+      <p>Fokus: Base, Robinhood Chain, dan ekosistem terkait. Aktivitas utama: LP arbitrage, trend/meme screening, whale monitoring, dan tokenisasi aset saham.</p>
+    </section>
+
+    <section class="section">
+      <div class="card" id="focus">
+        <h3>Fokus Riset</h3>
+        <ul class="list">
+          <li>Base &amp; Robinhood Chain</li>
+          <li>LP arbitrage (V3/V4)</li>
+          <li>Whale &amp; smart money alerts</li>
+          <li>Tokenisasi saham &amp; Volume/Risk screening</li>
+          <li>Arbitrage &amp; bridge monitoring</li>
+        </ul>
+      </div>
+
+      <div class="card" id="watchlist">
+        <h3>Watchlist</h3>
+        <p class="value">Base / Robinhood</p>
+        <div>
+          <span class="tag">CHARMS</span>
+          <span class="tag">KITE</span>
+          <span class="tag">AVNT</span>
+          <span class="tag">BSX</span>
+          <span class="tag">BMX</span>
+          <span class="tag">ROLL</span>
+          <span class="tag">CENTRY</span>
+          <span class="tag">CFG</span>
+        </div>
+        <p style="color:var(--muted);font-size:13px;margin-top:10px">Stok tokenisasi: SKHY terbaru. CA aktif dilacak via Blockscout + DexScreener.</p>
+      </div>
+
+      <div class="card" id="tools">
+        <h3>Tools &amp; Data</h3>
+        <ul class="list">
+          <li>DexScreener, GeckoTerminal</li>
+          <li>Alps.farm, Range.cash</li>
+          <li>GMGN, BasedBot</li>
+          <li>Blockscout Robinhood</li>
+          <li>Custom whale monitor + factory monitor</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="notice">
+      Riset ini bersifat informatif dan tidak merupakan saran investasi. Beberapa proyek baru memiliki risiko likuiditas, verifikasi, dan harga yang sangat fluktuatif.
+    </div>
+
+    <footer id="contact">
+      Ken · Indonesia · Crypto Research · Reach me on Telegram
+    </footer>
+  </div>
+</body>
+</html>
